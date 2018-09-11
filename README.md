@@ -6,17 +6,18 @@ To Create the Container, you must have Docker Version 18.06.0 or higher.  Downlo
 
 Build Docker Image:
 "docker build ."
-https://github.com/roadgoat/N1QLWorkshop/blob/master/DockerBuild.png
+![alt text](https://github.com/roadgoat/N1QLWorkshop/blob/master/DockerBuild.png)
 
 Run Docker Container from the Newly Created Image:
 "docker run -d --name ConnectN1QL -p 8091-8094:8091-8094 -p 11210:11210 -p 9100-9105:9100-9105 <image_name>" 
-
-
-docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 -p 9100-9105:9100-9105 <image_id>
+![alt text](https://github.com/roadgoat/N1QLWorkshop/blob/master/DockerRun.png)
 
 You can connect to the Couchbase node by going to http://127.0.0.0.1:8091  
-
 User: Administrator
 Password: password
-
+![alt text](https://github.com/roadgoat/N1QLWorkshop/blob/master/CBLogin.png)
+Single Node Configuration
+![alt text](https://github.com/roadgoat/N1QLWorkshop/blob/master/Cluster.png)
+Bucket Used in the Lab
+![alt text](https://github.com/roadgoat/N1QLWorkshop/blob/master/rentals.png)
 
